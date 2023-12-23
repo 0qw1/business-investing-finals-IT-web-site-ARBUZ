@@ -1,0 +1,60 @@
+/* База */
+@font-face {
+    font-family: garet_font;
+    src: url(../font/ofont.ru_Garet.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: garet_font;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(233, 233, 233);
+}
+a{
+    text-decoration: none;
+    color: black;
+    transition-duration: 0.2s;
+}
+h1{
+    font-size: 30px;
+}
+p{
+    font-size: 16px;
+}
+:root{
+    --side-padding: 8%;
+    --black: rgb(22, 22, 22);
+    --blue: rgb(0, 115, 255);
+    --light-gray: rgb(234, 234, 234);
+    --white: rgb(244, 244, 244);
+}
+button{
+    background-color: var(--blue);
+    color: var(--white);
+    border-radius: 30px;
+    padding: 12px 18px;
+    border: 0;
+    font-size: 18px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+a:hover{
+    transform: translate(0, -5%);
+    letter-spacing: 1px;
+}
+button:hover{
+    transform: translate(0, -5%);
+    background-color: rgb(0, 88, 195);
+}
+/* section{
+    opacity: 0;
+    transition-duration: 1s;
+    transition-delay: 0.5s;
+}
+.isShow{
+    opacity: 1;
+} */
