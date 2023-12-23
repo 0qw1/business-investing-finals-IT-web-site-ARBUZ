@@ -1,0 +1,52 @@
+@media (max-width: 900px){
+    .welcome h1, .welcome p{
+        padding-right: 0;
+    }
+    :root{
+        --side-padding: 5%;
+    }
+    .about_us_body >*{
+        height: auto;
+    }
+}
+
+@media (max-width: 750px){
+    .info h1, .about_us h1{
+        padding-right: 0%;
+    }
+    .footer_body{
+        width: 90%;
+    }
+    .logo{
+        display: none;
+    }
+    header{
+        justify-content: center;
+    }
+    .welcomecontent{
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 640px){
+    header{display: none;}
+    .info_body, .about_us_body >*{
+        flex-direction: column;
+    }
+    .about_us_1, .about_us_3{
+        flex-direction: column-reverse;
+    }
+    .info_i1{display: none;}
+    .footer_body{
+        width: 90%;
+    }
+    .welcome{
+        padding: 0;
+        
+    }
+    .welcomebody, .welcomecontent{
+        border-radius: 0px;
+    }
+    html{font-size: 12px;}
+}
