@@ -58,3 +58,27 @@ button:hover{
 .isShow{
     opacity: 1;
 } */
+header{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px var(--side-padding);
+    align-items: center;
+}
+.logo{
+    display: flex;
+    text-align: left;
+    gap: 10px;
+}
+.logo p{
+    line-height: 18px;
+}
+.logoFIT{
+    font-size: 2rem;
+    line-height: 36px;
+}
+nav{
+    display: flex;
+    gap: 20px;
+
+}
