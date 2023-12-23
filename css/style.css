@@ -207,3 +207,23 @@ nav{
     border-radius: 20px;
     color: var(--white);
 }
+footer{
+    background-image: url(../img/footer.jpg);
+    height: 80%;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_body{
+    width: 60%;
+    border-radius: 20px;
+    backdrop-filter: blur(5px) brightness(0.6);
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 5%;
+    align-items: flex-start;
+}
