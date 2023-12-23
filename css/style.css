@@ -25,6 +25,11 @@ h1{
 p{
     font-size: 16px;
 }
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
 :root{
     --side-padding: 8%;
     --black: rgb(22, 22, 22);
@@ -58,3 +63,44 @@ button:hover{
 .isShow{
     opacity: 1;
 } */
+
+
+
+/* Info */
+.info{
+    padding: 3% var(--side-padding);
+    height: auto;
+}
+.info h1{
+    padding-right: 40%;
+    margin-bottom: 20px;
+}
+.info_body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.info_body >*{
+    flex-grow: 1;
+    height: 300px;
+    background-color: var(--white);
+    border-radius: 20px;
+    box-shadow: 0 0 3px var(--light-gray);
+    overflow: hidden;
+}
+.info_body >*>h3{
+    margin-bottom: 10px;
+}
+.info_i1,.info_i3{flex-basis: 20%;}
+.info_i2,.info_i4,.info_i5{flex-basis: 40%;}
+
+.info_i3,
+.info_i2,
+.info_i4{
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
